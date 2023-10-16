@@ -27,15 +27,6 @@ function hangman() {
     // ===============================================================================================
     // Main loop
     // ===============================================================================================
-    // const guessInput = document.querySelector('guess-input');
-    // const guessButton = document.querySelector('guess-button')
-    // guessButton.addEventListener('click', captureValue);
-
-
-
-
-
-
 
 
 }; // End of Function
