@@ -11,8 +11,8 @@ function hangman() {
     const random_word = randomChoice(word_list);
 
     // Define the maps
-    const random_word_map = counteR(random_word);
-    const user_guesses = counter();
+    const random_word_map = counter(random_word);
+    const user_guesses = counter("");
 
     // Define how many choices a player gets
     let chance_count = 3;
@@ -27,6 +27,22 @@ function hangman() {
     // ===============================================================================================
     // Main loop
     // ===============================================================================================
+    // const guessInput = document.querySelector('guess-input');
+    // const guessButton = document.querySelector('guess-button')
+    // guessButton.addEventListener('click', captureValue);
+
+
+
+
+
+
+
+
+}; // End of Function
+
+module.exports = hangman;
+
+/*
     for (const letter of random_word) {
         while(true) {
             // Display remaining chances
@@ -38,13 +54,6 @@ function hangman() {
             // Has the user run out of chances to guess?
                 // If yes, lose the game
 
-            
-
-
-
-
         } // End of While Loop
     }; // End of For Loop
-}; // End of Function
-
-module.exports = hangman;
+*/
