@@ -1,5 +1,4 @@
 function hangman() {
-    // ===============================================================================================
     const randomChoice = require('./utility/randomChoice');
     const counter = require('./utility/counter');
 
@@ -9,7 +8,8 @@ function hangman() {
 
     // Randomly choose a word
     const random_word = randomChoice(word_list);
-
+    console.log(`Random_word: ${random_word}`);
+    
     // Define the maps
     const random_word_map = counter(random_word);
     const user_guesses = counter("");
